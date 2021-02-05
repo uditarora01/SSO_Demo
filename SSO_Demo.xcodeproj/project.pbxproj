@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4CCF4AA25CD82D600E5DE34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CCF4A925CD82D600E5DE34 /* AppDelegate.swift */; };
+		F4CCF4AC25CD82D600E5DE34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CCF4AB25CD82D600E5DE34 /* SceneDelegate.swift */; };
+		F4CCF4AE25CD82D600E5DE34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CCF4AD25CD82D600E5DE34 /* ViewController.swift */; };
+		F4CCF4B125CD82D600E5DE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CCF4AF25CD82D600E5DE34 /* Main.storyboard */; };
+		F4CCF4B325CD82D800E5DE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CCF4B225CD82D800E5DE34 /* Assets.xcassets */; };
+		F4CCF4B625CD82D800E5DE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CCF4B425CD82D800E5DE34 /* LaunchScreen.storyboard */; };
+		F4CCF4C125CD82D800E5DE34 /* SSO_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CCF4C025CD82D800E5DE34 /* SSO_DemoTests.swift */; };
+		F4CCF4CC25CD82D800E5DE34 /* SSO_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CCF4CB25CD82D800E5DE34 /* SSO_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4CCF4BD25CD82D800E5DE34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CCF49E25CD82D600E5DE34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CCF4A525CD82D600E5DE34;
+			remoteInfo = SSO_Demo;
+		};
+		F4CCF4C825CD82D800E5DE34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CCF49E25CD82D600E5DE34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CCF4A525CD82D600E5DE34;
+			remoteInfo = SSO_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4CCF4A625CD82D600E5DE34 /* SSO_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSO_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CCF4A925CD82D600E5DE34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4CCF4AB25CD82D600E5DE34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4CCF4AD25CD82D600E5DE34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4CCF4B025CD82D600E5DE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4CCF4B225CD82D800E5DE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4CCF4B525CD82D800E5DE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4CCF4B725CD82D800E5DE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CCF4BC25CD82D800E5DE34 /* SSO_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSO_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CCF4C025CD82D800E5DE34 /* SSO_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSO_DemoTests.swift; sourceTree = "<group>"; };
+		F4CCF4C225CD82D800E5DE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CCF4C725CD82D800E5DE34 /* SSO_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSO_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CCF4CB25CD82D800E5DE34 /* SSO_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSO_DemoUITests.swift; sourceTree = "<group>"; };
+		F4CCF4CD25CD82D800E5DE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CCF4A325CD82D600E5DE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CCF4B925CD82D800E5DE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CCF4C425CD82D800E5DE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CCF49D25CD82D600E5DE34 = {
+			isa = PBXGroup;
+			children = (
+				F4CCF4A825CD82D600E5DE34 /* SSO_Demo */,
+				F4CCF4BF25CD82D800E5DE34 /* SSO_DemoTests */,
+				F4CCF4CA25CD82D800E5DE34 /* SSO_DemoUITests */,
+				F4CCF4A725CD82D600E5DE34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CCF4A725CD82D600E5DE34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CCF4A625CD82D600E5DE34 /* SSO_Demo.app */,
+				F4CCF4BC25CD82D800E5DE34 /* SSO_DemoTests.xctest */,
+				F4CCF4C725CD82D800E5DE34 /* SSO_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CCF4A825CD82D600E5DE34 /* SSO_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F4CCF4A925CD82D600E5DE34 /* AppDelegate.swift */,
+				F4CCF4AB25CD82D600E5DE34 /* SceneDelegate.swift */,
+				F4CCF4AD25CD82D600E5DE34 /* ViewController.swift */,
+				F4CCF4AF25CD82D600E5DE34 /* Main.storyboard */,
+				F4CCF4B225CD82D800E5DE34 /* Assets.xcassets */,
+				F4CCF4B425CD82D800E5DE34 /* LaunchScreen.storyboard */,
+				F4CCF4B725CD82D800E5DE34 /* Info.plist */,
+			);
+			path = SSO_Demo;
+			sourceTree = "<group>";
+		};
+		F4CCF4BF25CD82D800E5DE34 /* SSO_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CCF4C025CD82D800E5DE34 /* SSO_DemoTests.swift */,
+				F4CCF4C225CD82D800E5DE34 /* Info.plist */,
+			);
+			path = SSO_DemoTests;
+			sourceTree = "<group>";
+		};
+		F4CCF4CA25CD82D800E5DE34 /* SSO_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CCF4CB25CD82D800E5DE34 /* SSO_DemoUITests.swift */,
+				F4CCF4CD25CD82D800E5DE34 /* Info.plist */,
+			);
+			path = SSO_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CCF4A525CD82D600E5DE34 /* SSO_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CCF4D025CD82D800E5DE34 /* Build configuration list for PBXNativeTarget "SSO_Demo" */;
+			buildPhases = (
+				F4CCF4A225CD82D600E5DE34 /* Sources */,
+				F4CCF4A325CD82D600E5DE34 /* Frameworks */,
+				F4CCF4A425CD82D600E5DE34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSO_Demo;
+			productName = SSO_Demo;
+			productReference = F4CCF4A625CD82D600E5DE34 /* SSO_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4CCF4BB25CD82D800E5DE34 /* SSO_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CCF4D325CD82D800E5DE34 /* Build configuration list for PBXNativeTarget "SSO_DemoTests" */;
+			buildPhases = (
+				F4CCF4B825CD82D800E5DE34 /* Sources */,
+				F4CCF4B925CD82D800E5DE34 /* Frameworks */,
+				F4CCF4BA25CD82D800E5DE34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CCF4BE25CD82D800E5DE34 /* PBXTargetDependency */,
+			);
+			name = SSO_DemoTests;
+			productName = SSO_DemoTests;
+			productReference = F4CCF4BC25CD82D800E5DE34 /* SSO_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4CCF4C625CD82D800E5DE34 /* SSO_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CCF4D625CD82D800E5DE34 /* Build configuration list for PBXNativeTarget "SSO_DemoUITests" */;
+			buildPhases = (
+				F4CCF4C325CD82D800E5DE34 /* Sources */,
+				F4CCF4C425CD82D800E5DE34 /* Frameworks */,
+				F4CCF4C525CD82D800E5DE34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CCF4C925CD82D800E5DE34 /* PBXTargetDependency */,
+			);
+			name = SSO_DemoUITests;
+			productName = SSO_DemoUITests;
+			productReference = F4CCF4C725CD82D800E5DE34 /* SSO_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CCF49E25CD82D600E5DE34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "UDIT ARORA";
+				TargetAttributes = {
+					F4CCF4A525CD82D600E5DE34 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					F4CCF4BB25CD82D800E5DE34 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F4CCF4A525CD82D600E5DE34;
+					};
+					F4CCF4C625CD82D800E5DE34 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = F4CCF4A525CD82D600E5DE34;
+					};
+				};
+			};
+			buildConfigurationList = F4CCF4A125CD82D600E5DE34 /* Build configuration list for PBXProject "SSO_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CCF49D25CD82D600E5DE34;
+			productRefGroup = F4CCF4A725CD82D600E5DE34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CCF4A525CD82D600E5DE34 /* SSO_Demo */,
+				F4CCF4BB25CD82D800E5DE34 /* SSO_DemoTests */,
+				F4CCF4C625CD82D800E5DE34 /* SSO_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CCF4A425CD82D600E5DE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CCF4B625CD82D800E5DE34 /* LaunchScreen.storyboard in Resources */,
+				F4CCF4B325CD82D800E5DE34 /* Assets.xcassets in Resources */,
+				F4CCF4B125CD82D600E5DE34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CCF4BA25CD82D800E5DE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CCF4C525CD82D800E5DE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CCF4A225CD82D600E5DE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CCF4AE25CD82D600E5DE34 /* ViewController.swift in Sources */,
+				F4CCF4AA25CD82D600E5DE34 /* AppDelegate.swift in Sources */,
+				F4CCF4AC25CD82D600E5DE34 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CCF4B825CD82D800E5DE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CCF4C125CD82D800E5DE34 /* SSO_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CCF4C325CD82D800E5DE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CCF4CC25CD82D800E5DE34 /* SSO_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4CCF4BE25CD82D800E5DE34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CCF4A525CD82D600E5DE34 /* SSO_Demo */;
+			targetProxy = F4CCF4BD25CD82D800E5DE34 /* PBXContainerItemProxy */;
+		};
+		F4CCF4C925CD82D800E5DE34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CCF4A525CD82D600E5DE34 /* SSO_Demo */;
+			targetProxy = F4CCF4C825CD82D800E5DE34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4CCF4AF25CD82D600E5DE34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CCF4B025CD82D600E5DE34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4CCF4B425CD82D800E5DE34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CCF4B525CD82D800E5DE34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4CCF4CE25CD82D800E5DE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4CCF4CF25CD82D800E5DE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4CCF4D125CD82D800E5DE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSO_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SOS.SSO-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4CCF4D225CD82D800E5DE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSO_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SOS.SSO-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4CCF4D425CD82D800E5DE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSO_DemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SOS.SSO-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSO_Demo.app/SSO_Demo";
+			};
+			name = Debug;
+		};
+		F4CCF4D525CD82D800E5DE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSO_DemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SOS.SSO-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSO_Demo.app/SSO_Demo";
+			};
+			name = Release;
+		};
+		F4CCF4D725CD82D800E5DE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSO_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SOS.SSO-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSO_Demo;
+			};
+			name = Debug;
+		};
+		F4CCF4D825CD82D800E5DE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SSO_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SOS.SSO-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSO_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CCF4A125CD82D600E5DE34 /* Build configuration list for PBXProject "SSO_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CCF4CE25CD82D800E5DE34 /* Debug */,
+				F4CCF4CF25CD82D800E5DE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CCF4D025CD82D800E5DE34 /* Build configuration list for PBXNativeTarget "SSO_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CCF4D125CD82D800E5DE34 /* Debug */,
+				F4CCF4D225CD82D800E5DE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CCF4D325CD82D800E5DE34 /* Build configuration list for PBXNativeTarget "SSO_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CCF4D425CD82D800E5DE34 /* Debug */,
+				F4CCF4D525CD82D800E5DE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CCF4D625CD82D800E5DE34 /* Build configuration list for PBXNativeTarget "SSO_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CCF4D725CD82D800E5DE34 /* Debug */,
+				F4CCF4D825CD82D800E5DE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CCF49E25CD82D600E5DE34 /* Project object */;
+}
